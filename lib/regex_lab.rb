@@ -1,9 +1,6 @@
 def starts_with_a_vowel?(word)
-if word.match(/^a|e|i|o|u/)
-  vowel_start = word.match(/^a|e|i|o|u/)
-  return true
-elsif vowel_start != word.match(/^a|e|i|o|u/)
-  return false
+if word.match(/^[a|e|i|o|u]/)
+return true
 end
 end
 
