@@ -1,7 +1,7 @@
 def starts_with_a_vowel?(word)
 if word.match(/^a|e|i|o|u/)
   return true
-elsif word.match(/^[^a|e|i|o|u]/)
+elsif word.match(/^[b-d][f-h][j-n][q-t][v-z]/)
   return false
 end
 end
