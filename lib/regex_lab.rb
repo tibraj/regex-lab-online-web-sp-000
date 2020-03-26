@@ -2,6 +2,7 @@ def starts_with_a_vowel?(word)
 if word.match(/^a|e|i|o|u/)
   return true
 elsif word.match(/^[^a|e|i|o|u/])
+  return false
 end
 end
 
